@@ -1,0 +1,141 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.attribution {
+    font-size: 11px;
+    text-align: center;
+}
+
+.attribution a {
+    color: hsl(228, 45%, 44%);
+}
+
+img {
+    max-width: 100%;
+}
+
+body {
+    font-family: 'Outfit', sans-serif;
+    text-align: left;
+    background-color: hsl(217, 54%, 11%);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:active {
+    color: cyan;
+}
+
+.container {
+    background-color: hsl(216, 50%, 16%);
+    border-radius: 10px;
+    margin: 50px;
+    padding: 30px;
+}
+
+.container .equilibrium img{
+    border-radius: 10px;
+}
+
+.container .equilibrium:active {
+    background-color: cyan;
+    background-image: url(icon-view.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: auto;
+    border-radius: 10px;
+}
+
+.container .equilibrium img:active {
+    opacity: 0.2;
+}
+
+.container h1 {
+    color: #fff;
+    font-weight: bold;
+    font-size: 25px;
+    margin: 30px 0 30px 0;
+}
+
+.container p {
+    font-size: 18px;
+    color: hsl(215, 51%, 70%);
+}
+
+.container .content p {
+    padding-right: 50px;
+    line-height: 2;
+    margin: 30px 0 30px 0;
+}
+
+.container .details {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    border-bottom: 2px solid hsl(215, 32%, 27%);
+    padding-bottom: 25px;
+}
+
+
+.container .details .ethereum p {
+    color: cyan;
+    padding-left: 10px;
+}
+
+.container .details .ethereum {
+    display: flex;
+    flex-direction: row;
+
+}
+
+.container .details .clock {
+    display: flex;
+    flex-direction: row;
+    width: 40%;
+}
+
+.container .details .clock p {
+    padding-left: 10px;
+}
+
+.container .avatar img {
+    max-width: 10%;
+    max-height: 10%;
+}
+
+.container .avatar {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    margin: 10px 0;
+}
+
+.container .avatar p {
+    margin: 0 0 0 20px;
+    line-height: 2;
+}
+
+.container .avatar span a{
+    color: #fff;
+}
+
+.container .avatar span a:active{
+    color: cyan;
+}
+
+@media (min-width: 768px) {
+    .container {
+        width: 420px;
+    }
+}
